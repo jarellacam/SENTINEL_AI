@@ -1,0 +1,13 @@
+detector:
+  confidence: 0.5
+  model_name: "yolov8n.onnx"
+storage:
+  folder: "captures"
+  cooldown: 15
+roi:
+  # ZONA INICIAL RESTAURADA
+  points: [[100, 350], [540, 350], [600, 480], [40, 480]]
+panic_mode:
+  enabled: true
+  threshold_seconds: 10
+  frequency_hz: 1000

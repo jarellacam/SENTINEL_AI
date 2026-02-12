@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+*.log
+
+# --- Modelos de IA (Peso pesado) ---
+# Ignoramos los modelos para que el repo sea ligero
+models/*
+!models/.gitkeep
+*.onnx
+*.pt
+*.pth
+
+# --- Datos Sensibles (Privacidad) ---
+# Nunca subir base de datos ni fotos de vigilancia
+*.db
+captures/
+data/
+
+# --- Multimedia ---
+videos/
+*.mp4
+*.avi
+*.jpg
+*.png
+# Exceptuamos las imágenes que puedan ser assets del proyecto
+!src/assets/*.png
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Otros ---
+/temp/
