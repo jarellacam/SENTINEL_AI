@@ -53,7 +53,7 @@ El bot permite interactuar con el sistema en tiempo real:
 * `/capture`: Solicita una fotografía en tiempo real de la cámara.
 * `/mute [minutos]`: Silencia las notificaciones de intrusión durante el tiempo especificado.
 
-## ⚖️ Aviso Legal
+##  Aviso Legal
 Este software es una herramienta de seguridad experimental. El usuario es responsable de cumplir con las leyes locales de videovigilancia y protección de datos (RGPD en la UE). Se recomienda no apuntar a la vía pública.
 
 Juan Arellano Cameo
